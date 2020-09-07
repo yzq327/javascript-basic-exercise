@@ -26,4 +26,5 @@ describe('for array to list', () => {
     expect(list.next.value).toEqual(2);
     expect(list.next.next).toEqual({ value: 3, next: null });
   });
+  
 });
