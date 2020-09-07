@@ -13,6 +13,7 @@ export default function formatNumber(number, option) {
   if(option === undefined || option === false){
     return result;    
   }
+
   return '$ '+ result;
    
 }
