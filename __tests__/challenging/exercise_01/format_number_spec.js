@@ -3,9 +3,10 @@ import formatNumber from '../../../src/exercise_01/numberFormatter';
 // Please do NOT modifiy the code in this file.
 describe('We would like to format number', () => {
   it('should format number with dollar sign if currency option is specified', () => {
-    const formatted = formatNumber(2, { currency: true });
+  const formatted = formatNumber(2, { currency: true });
+  console.log('Debug:', formatted);
 
-    expect(formatted).toEqual('$ 2.00');
+  expect(formatted).toEqual('$ 2.00');
   });
 
   it('should round number to 2 numerics', () => {
